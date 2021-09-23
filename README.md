@@ -2,7 +2,7 @@
 
 Her er en oversigt over projekter
 
-- [Opskrift](ospkrift/)
-- [Min Stickman](stickman/)
+- [Opskrift](opskrift/)
+- [My manstick](stickman/)
 
 ## Om mig
