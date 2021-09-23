@@ -1,3 +1,8 @@
-# ManStick
-sticky manlyness
-hej med dig
+# Prog-B 2021-2023
+
+Her er en oversigt over projekter
+
+- [Opskrift](ospkrift/)
+- [Min Stickman](stickman/)
+
+## Om mig
