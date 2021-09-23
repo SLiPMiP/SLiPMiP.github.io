@@ -1,4 +1,4 @@
-# Prog-B 2021-2023
+# SLiPMiP
 
 Her er en oversigt over projekter
 
