@@ -4,7 +4,7 @@
 
 - [my manstick](stickman/)
 - [recipe](opskrift/)
-- [bouncingball](bball/)
+- [bouncingball](bouncingball/)
 - [logical operators](logicaloperators/)
 
 ## about me
