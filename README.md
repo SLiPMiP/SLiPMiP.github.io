@@ -1,9 +1,9 @@
 # SLiPMiP
 
-Her er en oversigt over projekter
+## School projects
 
 - [My manstick](stickman/)
-- [Opskrift](opskrift/)
+- [Recipe](opskrift/)
 - [Bouncingball](bouncingball/)
 - [logical operators](logicaloperators/)
 
