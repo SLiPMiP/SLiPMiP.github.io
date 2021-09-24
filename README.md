@@ -7,4 +7,6 @@
 - [Bouncingball](bouncingball/)
 - [logical operators](logicaloperators/)
 
-## Om mig
+## About me
+- i play videogames 
+- Slipmip@outlook.dk
