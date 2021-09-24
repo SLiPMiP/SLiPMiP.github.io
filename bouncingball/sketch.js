@@ -11,7 +11,7 @@ function setup() {
 function draw() {
   background(220);
 
-  let width = 50;
+  let width = 30;
   let height = 30;
   rect(xPos, yPos, width, height);
 
