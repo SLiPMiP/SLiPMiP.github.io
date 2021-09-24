@@ -13,7 +13,7 @@ function draw() {
 
   let width = 50;
   let height = 30;
-  rect(xPos,yPos,width,height)
+  rect(xPos, yPos, width, height);
 
   xPos = xPos + xSpeed;
   yPos = yPos + ySpeed;
