@@ -1,12 +1,12 @@
 # SLiPMiP
 
-## School projects
+## school projects
 
-- [My manstick](stickman/)
-- [Recipe](opskrift/)
-- [Bouncingball](bouncingball/)
+- [my manstick](stickman/)
+- [recipe](opskrift/)
+- [bouncingball](bouncingball/)
 - [logical operators](logicaloperators/)
 
-## About me
+## about me
 - i play videogames 
 - Slipmip@outlook.dk
