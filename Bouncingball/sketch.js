@@ -15,15 +15,6 @@ function draw() {
   let height = 30;
   rect(xPos,yPos,width,height)
 
-  // I have no idea tf im doing pls 
-  // let img;
-  // function preload() {
-  //   img = loadimage('C:\Code\stuff\SLiPMiP.github.io\bouncingball\bootlegdvd.png')
-  // }
-  // function setup() {
-  //   image(img, 100, 100, 50, 30)
-  // }
-
   xPos = xPos + xSpeed;
   yPos = yPos + ySpeed;
 
