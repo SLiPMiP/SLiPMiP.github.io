@@ -2,7 +2,7 @@ let xPos = 100;
 let yPos = 100;
 
 let xSpeed = 2;
-let ySpeed = 1;
+let ySpeed = 2;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
