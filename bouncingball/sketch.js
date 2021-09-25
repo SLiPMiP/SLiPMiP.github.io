@@ -11,8 +11,8 @@ function setup() {
 function draw() {
   background(220);
 
-  let width = 30;
-  let height = 30;
+  let width = 25;
+  let height = 25;
   rect(xPos, yPos, width, height);
 
   xPos = xPos + xSpeed;
