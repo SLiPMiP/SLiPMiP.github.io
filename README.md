@@ -6,7 +6,7 @@
 - [recipe](opskrift/)
 - [bouncingball](bouncingball/)
 - [logical operators](logicaloperators/)
-- [number loops]
+- number loops
     - [countdown]
 
 ## about me
