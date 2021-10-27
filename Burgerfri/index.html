@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My first website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css" type="text/css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="pics/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Forside</a></li>
+                    <li><a href="">Bag pølserne</a></li>
+                    <li><a href="">Priser</a></li>
+                    <li><a href="">Find ud af mere</a></li>
+                    <li><a href="">Kontakt</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class=" text-box ">
+            <h1>Verdens bedste burgerfri pølsevogn</h1>
+            <p>Her holder vi fri <br>fra burgerne</p>
+            <a href=" " class="hero-btn ">Besøg os</a>
+        </div>
+
+    </section>
+
+    <!-- pølsefolk -->
+
+    <section class="course">
+        <h1>Her på havnen sker der meget</h1>
+        <p>så kom, tag en pause og en pølse</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Slap af</h3>
+                <p>siddepladser båle til regn og sol</p>
+                <img src="pics/siddepladser.png" height="250" alt="">
+            </div>
+            <div class="course-col">
+                <h3>Pause pølse</h3>
+                <p>tank digselv op</p>
+                <img src="pics/industri.jpg" height="250" alt="">
+            </div>
+            <div class="course-col">
+                <h3>delikatesser</h3>
+                <p>perfekte hotdogs</p>
+                <img src="pics/Tican Pølser .png" height="250" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- campus -->
+    <section class="campus">
+        <h1>En mægtig god pølse venter dig</h1>
+        <div class="pics">
+            <img src="pics/grillmester.jpg" height="533" alt="">
+            <img src="pics/honestwork.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- toggling menu in small screen  -->
+
+    <script>
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
