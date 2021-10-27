@@ -6,11 +6,6 @@
 - [recipe](opskrift/)
 - [bouncingball](bouncingball/)
 - [logical operators](logicaloperators/)
-<!-- - number loops
-    - [loop1](loop1/)
-    - [loop2](loop2/)
-    - [loop3](loop3/)
-    - [loop4](loop4/) -->
 - [burgerfri](burgerfri/)
 
 ## about me
