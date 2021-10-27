@@ -6,11 +6,12 @@
 - [recipe](opskrift/)
 - [bouncingball](bouncingball/)
 - [logical operators](logicaloperators/)
-- number loops
-    - [loop1](loops/loop1)
-    - [loop2](loops/loop2)
-    - [loop3](loops/loop3)
-    - [loop4](loops/loop4)
+<!-- - number loops
+    - [loop1](loop1/)
+    - [loop2](loop2/)
+    - [loop3](loop3/)
+    - [loop4](loop4/) -->
+- [Burgerfri](burgerfri/)
 
 ## about me
 - i play videogames 
