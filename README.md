@@ -11,7 +11,7 @@
     - [loop2](loop2/)
     - [loop3](loop3/)
     - [loop4](loop4/) -->
-- [Burgerfri](burgerfri/)
+- [burgerfri](burgerfri/)
 
 ## about me
 - i play videogames 
