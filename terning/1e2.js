@@ -15,13 +15,13 @@ if (1 == args.length) {
 
 if (2 == args.length) {
     kast = args[0]
-    sider = args[1]
+    terninger = args[1]
 }
 
 if (3 == args.length) {
     kast = args[0]
-    sider = args[1]
-    terninger = args[2]
+    terninger = args[1]
+    sider = args[2]
 }
 
 // the next 3 if's define the value "r", which is the argurment used if you wish for a random number
