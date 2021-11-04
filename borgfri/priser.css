@@ -154,11 +154,11 @@ p {
 .row {
     margin-top: 5%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .course-col {
-    flex-basis: 31%;
+    flex-basis: 100%;
     background: rgb(255, 100, 0);
     border-radius: 10px;
     margin-bottom: 5%;
