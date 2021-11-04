@@ -140,6 +140,7 @@ nav .fa {
 
 .course p {
     color: black;
+    font-size: 30px;
 }
 
 h1 {
@@ -153,6 +154,11 @@ p {
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
+}
+
+.course img {
+    border-radius: 10%;
+    width: 100%;
 }
 
 .row {

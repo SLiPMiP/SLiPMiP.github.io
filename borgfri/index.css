@@ -143,6 +143,11 @@ h1 {
     font-weight: 600;
 }
 
+.course p {
+    color: black;
+    font-size: 30px;
+}
+
 p {
     color: #777;
     font-size: 14px;
