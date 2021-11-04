@@ -138,18 +138,19 @@ nav .fa {
     padding-top: 100px;
 }
 
-.course p {
-    color: black;
-    font-size: 30px;
-}
-
 h1 {
     font-size: 36px;
     font-weight: 600;
 }
 
+.course p {
+    color: black;
+    font-size: 30px;
+    line-height: 40px;
+}
+
 p {
-    color: #777;
+    color: black;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;

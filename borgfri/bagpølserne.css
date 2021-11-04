@@ -145,11 +145,12 @@ h1 {
 
 .course p {
     color: black;
-    font-size: 25px;
+    font-size: 30px;
+    line-height: 40px;
 }
 
 p {
-    color: #777;
+    color: black;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
