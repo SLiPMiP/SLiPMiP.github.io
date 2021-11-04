@@ -218,7 +218,6 @@ p {
     border-radius: 10px;
     margin-bottom: 30px;
     position: relative;
-    overflow: hidden;
     justify-content: space-between;
 }
 
