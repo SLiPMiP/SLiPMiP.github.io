@@ -1,28 +1,10 @@
 // default definitions, used for running the program without any argurments
-let kast = 100
-let sider = 6
-let terninger = 6
+const args = process.argv.slice(2)
+let kast = number(args[0]) || 100
+let terninger = number(args[1]) || 6
+let sider = number(args[2]) || 6
 let sum = 0
 let sæt = []
-
-// fucking something i have no idea this fuckign thing is needed tho, i have no clue why tho. stolen from the getsrevel website
-const args = process.argv.slice(2)
- 
-// the next 3 if's define the argurments, the args[0] is the first argurment, [1] is the second, [2] is the third etc
-if (1 == args.length) {
-    kast = args[0]
-}
-
-if (2 == args.length) {
-    kast = args[0]
-    terninger = args[1]
-}
-
-if (3 == args.length) {
-    kast = args[0]
-    terninger = args[1]
-    sider = args[2]
-}
 
 // the next 3 if's define the value "r", which is the argurment used if you wish for a random number
 if (kast == "r") {
