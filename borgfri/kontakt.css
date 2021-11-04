@@ -146,6 +146,7 @@ h1 {
 .course p {
     color: black;
     font-size: 30px;
+    line-height: 40px;
 }
 
 p {
