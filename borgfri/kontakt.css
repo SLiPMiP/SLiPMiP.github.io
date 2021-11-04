@@ -213,11 +213,16 @@ p {
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
+    justify-content: space-between;
 }
 
 .campus-col img {
     height: 100%;
     display: block;
+    border-radius: 10%;
+    width: 80%;
+    border-style: ridge;
+    border-color: rgb(255, 100, 0);
 }
 
 .layer {
@@ -231,14 +236,14 @@ p {
 }
 
 .layer:hover {
-    background: rgb(255, 100, 0, 0.3);
+    background: rgb(0, 0, 255, 0.3);
 }
 
 .layer h3 {
     width: 100%;
     font-weight: 500;
-    color: white;
-    font-size: 26px;
+    color: rgb(255, 100, 0);
+    font-size: 35px;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
