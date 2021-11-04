@@ -7,7 +7,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(pics/polser2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(pics/exchange.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -136,6 +136,10 @@ nav .fa {
     margin: auto;
     text-align: center;
     padding-top: 100px;
+}
+
+.course p {
+    color: black;
 }
 
 h1 {
