@@ -160,7 +160,7 @@ p {
 .row {
     margin-top: 5%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .course-col {
