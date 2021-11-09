@@ -7,7 +7,6 @@ let y1s = []
 let x2s = []
 let y2s = []
 
-
 function setup() {
     createCanvas(windowWidth, windowHeight);
 }
@@ -17,8 +16,7 @@ function draw() {
     for (let i = 0; i < lines; i++) {
         if (LP == 1) {
             line(LPx, LPy, mouseX, mouseY)
-        }
-        else {
+        } else {
 
         }
         line(x1s[i], y1s[i], x2s[i], y2s[i])
