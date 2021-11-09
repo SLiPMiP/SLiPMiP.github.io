@@ -21,6 +21,7 @@ function mousePressed() {
     x1s.push(mouseX)
     y1s.push(mouseY)
 }
+
 function mouseReleased() {
     x2s.push(mouseX)
     y2s.push(mouseY)
