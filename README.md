@@ -15,6 +15,8 @@
 - [recipe](opskrift/)
 - [Marvel list in order cuz its faster to load and no ads pogpogpog](MARVEL/)
 
+paper is now obsolote, go back to your trees, respectively
+
 ## about me
 - i play videogames 
 - Slipmip@outlook.dk
