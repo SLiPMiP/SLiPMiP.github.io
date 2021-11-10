@@ -15,8 +15,6 @@
 - [recipe](opskrift/) ([source](https://github.com/SLiPMiP/SLiPMiP.github.io/tree/main/opskrift))
 - [Marvel list in order cuz its faster to load and no ads pogpogpog](MARVEL/) ([source](https://github.com/SLiPMiP/SLiPMiP.github.io/tree/main/MARVEL))
 
-paper is now obsolote, go back to your trees, respectively
-
 ## about me
-- i play videogames 
+- i play videogames
 - Slipmip@outlook.dk
