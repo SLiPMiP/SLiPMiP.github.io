@@ -16,6 +16,6 @@
 - [Marvel list in order cuz its faster to load and no ads pogpogpog](MARVEL/) ([source](https://github.com/SLiPMiP/SLiPMiP.github.io/tree/main/MARVEL))
 
 ## about me
-- Hamanoid bipedal
+- Humanoid bipedal
 - [Steam](https://steamcommunity.com/id/TRAESKUH/)
 - Mail: Slipmip@outlook.dk
