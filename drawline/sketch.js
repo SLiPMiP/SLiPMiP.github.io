@@ -37,3 +37,12 @@ function mouseReleased() {
     x2s.push(mouseX)
     y2s.push(mouseY)
 }
+
+function keyPressed() {
+    if (key == 'e') {
+        x1s = []
+        y1s = []
+        x2s = []
+        y2s = []
+    }
+}
