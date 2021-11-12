@@ -1,39 +1,88 @@
+// IMMAcULATE LINE FUckERY
 let lines = 0
-let LP = 0
-let LPx = 0
-let LPy = 0
-let x1s = []
-let y1s = []
-let x2s = []
-let y2s = []
+let le = 0
+
+let lp = 0
+let lpx = 0
+let lpy = 0
+
+let lx1 = []
+let ly1 = []
+let lx2 = []
+let ly2 = []
+
+//REcTANGULAR FUcKERYY
+let rects = 0
+let rt = 0
+
+let rp = 0
+let rpx = 0
+let rpy = 0
+
+let rx = []
+let ry = []
+let rw = []
+let rh = []
 
 function setup() {
-    createCanvas(windowWidth, windowHeight);
+    createCanvas(windowWidth, windowHeight - 1);
 }
 
 function draw() {
     background(120)
-    for (let i = 0; i < lines; i++) {
-        if (LP == 1) {
-            line(LPx, LPy, mouseX, mouseY)
-        } else {
-
+    if (le = 1) {
+        for (let i = 0; i < lines; i++) {
+            if (lp == 1) {
+                line(lpx, lpy, mouseX, mouseY)
+            }
+            line(lx1[i], ly1[i], lx2[i], ly2[i])
         }
-        line(x1s[i], y1s[i], x2s[i], y2s[i])
     }
+    if (rt = 1) {
+        for (let i = 0; i < boxes; i++) {
+            if (rP=1) {
+                rect(rx[i], ry[i], mouseX-rx[i], mouseY-ry[i] )
+            }
+        
+        }
+    }
+    keyIsDown(69) ? (minecraft()) : 0;
 }
 
 function mousePressed() {
-    LP = 1
-    lines += 1
-    LPx = mouseX
-    LPy = mouseY
-    x1s.push(mouseX)
-    y1s.push(mouseY)
+    if (ll = 1) {
+        LP = 1
+        lines += 1
+        LPx = mouseX
+        LPy = mouseY
+        lx1.push(mouseX)
+        ly1.push(mouseY)
+    }
+
 }
 
 function mouseReleased() {
-    LP = 0
-    x2s.push(mouseX)
-    y2s.push(mouseY)
+    if (ll = 1) {
+        LP = 0
+        lx2.push(mouseX)
+        ly2.push(mouseY)
+    }
+}
+
+function keyPressed() {
+    if (key == 'l') {
+        ll = 1
+        bb = 0
+    }
+    if (key == 's') {
+        ll = 0
+        bb = 1
+    }
+}
+
+function minecraft() {
+    lx1s = []
+    ly1s = []
+    lx2s = []
+    ly2s = []
 }
