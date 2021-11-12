@@ -39,22 +39,21 @@ function draw() {
         }
     }
     if (rt = 1) {
-        for (let i = 0; i < boxes; i++) {
-            if (rP=1) {
-                rect(rx[i], ry[i], mouseX-rx[i], mouseY-ry[i] )
+        for (let i = 0; i < rects; i++) {
+            if (rP = 1) {
+                rect(rx[i], ry[i], mouseX - rx[i], mouseY - ry[i])
             }
-        
         }
     }
-    keyIsDown(69) ? (minecraft()) : 0;
+    keyIsDown(69) ? (lx1 = [], ly1 = [], lx2 = [], ly2 = [], rx = [], lry = [], rw = [], rh = []) : 0;
 }
 
 function mousePressed() {
-    if (ll = 1) {
-        LP = 1
+    if (le = 1) {
+        lp = 1
         lines += 1
-        LPx = mouseX
-        LPy = mouseY
+        lpx = mouseX
+        lpy = mouseY
         lx1.push(mouseX)
         ly1.push(mouseY)
     }
@@ -62,27 +61,31 @@ function mousePressed() {
 }
 
 function mouseReleased() {
-    if (ll = 1) {
-        LP = 0
+    if (le = 1) {
+        lp = 0
         lx2.push(mouseX)
         ly2.push(mouseY)
     }
 }
 
 function keyPressed() {
+    if (key == 'e') {
+        lx1 = []
+        ly1 = []
+        lx2 = []
+        ly2 = []
+        rx = []
+        ry = []
+        rw = []
+        rh = []
+    }
     if (key == 'l') {
-        ll = 1
-        bb = 0
+        le = 1
+        rt = 0
+        console.log('thething')
     }
-    if (key == 's') {
-        ll = 0
-        bb = 1
+    if (key == 'r') {
+        le = 0
+        rt = 1
     }
-}
-
-function minecraft() {
-    lx1s = []
-    ly1s = []
-    lx2s = []
-    ly2s = []
 }
