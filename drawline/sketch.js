@@ -1,6 +1,6 @@
 // IMMAcULATE LINE FUckERY
 let lines = 0
-let le = 0
+let le = 1
 
 let lp = 0
 let lpx = 0
@@ -30,59 +30,80 @@ function setup() {
 
 function draw() {
     background(120)
-    if (le = 1) {
-        for (let i = 0; i < lines; i++) {
-            if (lp == 1) {
-                line(lpx, lpy, mouseX, mouseY)
-            }
+    for (let i = 0; i < lines; i++) {
+        if (lp == 1) {
+            line(lpx, lpy, mouseX, mouseY)
+        }
+        if (le == 1) {
             line(lx1[i], ly1[i], lx2[i], ly2[i])
         }
     }
-    if (rt = 1) {
-        for (let i = 0; i < boxes; i++) {
-            if (rP=1) {
-                rect(rx[i], ry[i], mouseX-rx[i], mouseY-ry[i] )
-            }
-        
+    for (let i = 0; i < rects; i++) {
+        if (rp == 1) {
+            rect(rpx, rpy, mouseX - rpx, mouseY - rpy)
+        }
+        if (rt == 1) {
+            rect(rx[i], ry[i], rw[i], rh[i])
         }
     }
-    keyIsDown(69) ? (minecraft()) : 0;
 }
 
 function mousePressed() {
-    if (ll = 1) {
-        LP = 1
+    if (le == 1) {
+        lp = 1
         lines += 1
-        LPx = mouseX
-        LPy = mouseY
+        lpx = mouseX
+        lpy = mouseY
         lx1.push(mouseX)
         ly1.push(mouseY)
     }
-
+    if (rt == 1) {
+        rp = 1
+        rects += 1
+        rpx = mouseX
+        rpy = mouseY
+        rx.push(mouseX)
+        ry.push(mouseY)
+    }
 }
 
 function mouseReleased() {
-    if (ll = 1) {
-        LP = 0
+    if (le == 1) {
+        lp = 0
         lx2.push(mouseX)
         ly2.push(mouseY)
+    }
+    if (rt == 1) {
+        rp = 0
+        rw.push = mouseX
+        rh.push = mouseY
     }
 }
 
 function keyPressed() {
     if (key == 'l') {
-        ll = 1
-        bb = 0
+        le = 1
+        rt = 0
+        console.log("le", le)
+        console.log("rt", rt)
     }
-    if (key == 's') {
-        ll = 0
-        bb = 1
+    if (key == 'r') {
+        le = 0
+        rt = 1
+        console.log("le", le)
+        console.log("rt", rt)
+    }
+    if (key == 'e') {
+        lx1 = []
+        ly1 = []
+        lx2 = []
+        ly2 = []
     }
 }
 
 function minecraft() {
-    lx1s = []
-    ly1s = []
-    lx2s = []
-    ly2s = []
+    lx1 = []
+    ly1 = []
+    lx2 = []
+    ly2 = []
 }

@@ -1,5 +1,5 @@
-let x = 120
-let y = 120
+let object = []
+object.push(rect(30, 30, 30, 30),line(0, 0, windowWidth, windowHeight))
 
 function setup() {
     createCanvas(windowWidth, windowHeight);
@@ -7,5 +7,6 @@ function setup() {
 
 function draw() {
     background(120)
-rect(x, y, mouseX-x, mouseY-y)
+object.draw[1]
+    
 }
