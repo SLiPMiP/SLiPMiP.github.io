@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-let object = []
-object.push(rect(30, 30, 30, 30),line(0, 0, windowWidth, windowHeight))
-=======
 // NATO
 let objects = 0
 
@@ -33,7 +29,6 @@ let rh = []
 let ass = 0
 
 //fuck you this took like 5 hrs because i thought of this the whole fucking wrong way and just deleted everything i had spent 4 hrs making and then returned to this simple ass code and made a little change and it just fucking worked because ofcourse it does why does it not draw different loops if theyre in the drawawawaw?? is it because the 2 loops were in different if variables that never were active at the same time its probably because of that i love coding i love coding i love coding
->>>>>>> d49e4467cf4ad7f28ee755e70824ee2c2f0ef998
 
 function setup() {
     createCanvas(windowWidth, windowHeight - 1);
@@ -41,10 +36,6 @@ function setup() {
 
 function draw() {
     background(120)
-<<<<<<< HEAD
-object.draw[1]
-    
-=======
     for (let i = 0; i < objects; i++) {
         if (lP == 1) {
             line(lpx, lpy, mouseX, mouseY)
@@ -117,5 +108,4 @@ function keyPressed() {
     if (key == 'a') {
         console.log(ass)
     }
->>>>>>> d49e4467cf4ad7f28ee755e70824ee2c2f0ef998
 }
