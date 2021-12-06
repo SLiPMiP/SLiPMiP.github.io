@@ -7,7 +7,7 @@
 - [Stickman](stickman/) ([source](https://github.com/SLiPMiP/SLiPMiP.github.io/tree/main/stickman))
 - [bouncingball](bouncingball/) ([source](https://github.com/SLiPMiP/SLiPMiP.github.io/tree/main/bouncingball))
 - [Logical operators](logicaloperators/) ([source](https://github.com/SLiPMiP/SLiPMiP.github.io/tree/main/locicaloperators))
-- [Draw lines](drawline/) ([source](https://github.com/SLiPMiP/SLiPMiP.github.io/tree/main/drawline))
+- [Draw lines, now include rectangles!](drawline/) ([source](https://github.com/SLiPMiP/SLiPMiP.github.io/tree/main/drawline))
 - [Terning - args using node](terning/) ([source](https://github.com/SLiPMiP/SLiPMiP.github.io/tree/main/terning))
 
 ### html ; css
