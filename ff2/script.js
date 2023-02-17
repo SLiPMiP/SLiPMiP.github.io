@@ -3,19 +3,19 @@ const userCardTemplate = document.querySelector("[data-user-template]")
 const userCardContainer = document.querySelector("[data-user-cards-container]")
 
 
-let users = []
+let things = []
 
 searchInput.addEventListener("input", e => {
     const value = e.target.value.toLowerCase()
-    users.forEach(user => {
+    things.forEach(thing => {
         const isVisible =
-            user.title.toLowerCase().includes(value) ||
-            user.desc.toLowerCase().includes(value)
-        user.element.classList.toggle("hide", !isVisible)
+            thing.title.toLowerCase().includes(value) ||
+            thing.desc.toLowerCase().includes(value)
+        thing.element.classList.toggle("hide", !isVisible)
     });
 })
 
-let things = [{
+let stuff = [{
         "title": "sensitivity",
         "desc": "changes how fast your mouse moves"
     },
@@ -54,7 +54,7 @@ let things = [{
 
 ]
 
-users = things.map(thing => {
+things = stuff.map(thing => {
     const card = userCardTemplate.content.cloneNode(true).children[0]
     const header = card.querySelector("[data-header]")
     const body = card.querySelector("[data-body]")
