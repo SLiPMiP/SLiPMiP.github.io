@@ -46,6 +46,7 @@ function draw() {
         }
         rect(rx[i], ry[i], rw[i] - rx[i], rh[i] - ry[i])
     }
+    noFill()
 }
 
 function mousePressed() {
