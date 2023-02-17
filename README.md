@@ -16,6 +16,6 @@
 - [Marvel canonical order](MARVEL/) ([source](https://github.com/SLiPMiP/SLiPMiP.github.io/tree/main/MARVEL))
 
 ## about me
-- Humanoid bipedal
+- Humanoid bipedal, extremely man-like.
 - [Steam](https://steamcommunity.com/id/TRAESKUH/)
 - Mail: Slipmip@outlook.dk
