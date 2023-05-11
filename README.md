@@ -2,6 +2,7 @@
 # no girls allowed
 
 ## school projects
+-  [Soundboks](game/Boxobox.html)
 
 ### JAVASRIPT p5LIB
 - [Stickman](stickman/) ([source](https://github.com/SLiPMiP/SLiPMiP.github.io/tree/main/stickman))
